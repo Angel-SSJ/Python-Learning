@@ -1,44 +1,35 @@
-import random
-
-
-def get_choices():
-  player_choice = input('Enter a choice(rock,paper,scissors):)')
-  options = ['rock', 'paper', 'scissors']
-  computer_choice = random.choice(options)
-  choices = {'player': player_choice, 'computer': computer_choice}
-
-  return choices
-
-
-def check_win(player, computer):
-  print(f'You chose {player}, computer chose {computer}')
-  if player == computer:
-    return "it is a tie"
-  elif player == 'rock':
-    if computer == 'scissors':
-      return 'Rock smashes scissors! You win!'
-    else:
-      return 'Paper covers rock! You lose.'
-  elif player == 'paper':
-    if computer == 'rock':
-      return 'Paper covers rock! You win!'
-    else:
-      return ' Scissors cuts paper! You lose.'
-  elif player == 'scissors':
-    if computer == 'paper':
-      return 'Scissors cuts paper! You win!'
-    else:
-      return 'Rock smashes scissors! You lose.'
-
-
-choices = get_choices()
-result = check_win(choices["player"], choices["computer"])
-print(result)
 # CONTROL STATEMENTS
 condition = False
 if condition is True:
-  print("""The condition
+    print("""The condition
   was true""")
 else:
-  print('''The condition
+    print('''The condition
   was False''')
+
+## OPERATOR TERNARY ##
+
+#Ternary Operator
+print('\n')
+print('Ternary Operator')
+
+
+def is_adult(age):
+  if age > 18:
+    return True
+  else:
+    return False
+
+
+def is_adult2(age):
+  return True if age > 18 else False
+
+user_age = int(input())
+
+webpage = 'about_whiskey.html' if user_age >= 21 else 'sorry.html'
+
+if user_age >= 21:
+    webpage = 'about_whiskey.html'
+else:
+    webpage = 'sorry.html'
+

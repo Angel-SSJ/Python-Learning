@@ -27,3 +27,14 @@ copyItems = Items[:]
 #print(Items)
 print(copyItems)
 print(sorted(Items, key=str.lower))
+
+
+## Comprehension List ##
+mylist = [1, 3, -6, -9, -0.2, 2, -1]
+bool_list = [True if x > 0 else False for x in mylist]  # list comprehension
+
+for x in mylist:
+    print(x)
+
+
+print(bool_list)  # print a list with boolean values
