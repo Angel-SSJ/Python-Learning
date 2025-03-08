@@ -1,4 +1,4 @@
-## EXERCISE 1 ##
+'''## EXERCISE 1 ##
 i = 1
 
 while i <= 10:
@@ -166,7 +166,8 @@ def fibonacci(n):
 
 for i in range(10):
     print(fibonacci(i), end=' ')
-'''   
+'''
+''' 
 i,j = 0,1
 secuencia_fibonacci = [i,j]
 num = int(input("Ingrese un numero positivo: "))
@@ -183,7 +184,7 @@ else:
     if siguiente_fibonacci < num:
       secuencia_fibonacci.append(siguiente_fibonacci)
 
-print(secuencia_fibonacci)'''
+print(secuencia_fibonacci)
     ##MATRICES##
 def fibonacciM(n):
     if n<=0:
@@ -218,18 +219,23 @@ num = int(input("Ingrese un numero: "))
 for i in range(1, num + 1):
   print("*" * i)
 
-
+'''
 ## EXERCISE I9 ##
 import random
 rand = random.randint(1,100)
 num = 0
+
+
 while num!= rand:
     num = int(input("Ingrese un numero entre el rango 1-100: "))
     if num < rand:
-        print("No adivinaste. El numero es mayor pelotudo")
+        print(f'No adivinaste. El numero es mayor pelotudo: {rand}')
     elif num > rand:
-        print("No adivinaste. El numero es menor pelotudo")
+        print(f'No adivinaste. El numero es menor pelotudo: {rand}')
 print(f'Adivinaste, el numero es {rand}')
+
+
+
 
 
 
