@@ -158,6 +158,15 @@ else:
 print(f"{num}! = {factorial}")
 
 ## EXERCISE I6 ##
+
+def fibonacci(n):
+    if n <=1:
+        return n
+    return fibonacci(n-1) + fibonacci(n-2)
+
+for i in range(10):
+    print(fibonacci(i), end=' ')
+'''   
 i,j = 0,1
 secuencia_fibonacci = [i,j]
 num = int(input("Ingrese un numero positivo: "))
@@ -174,7 +183,16 @@ else:
     if siguiente_fibonacci < num:
       secuencia_fibonacci.append(siguiente_fibonacci)
 
-print(secuencia_fibonacci)
+print(secuencia_fibonacci)'''
+    ##MATRICES##
+def fibonacciM(n):
+    if n<=0:
+        return 'Incorrect Output'
+    data =[0,1] # Initialize list with first two Fibonacci terms: 0 and 1
+    if n>2:
+        for i in range(2,n): # Start Loop from the third term
+            data.append(data[i-1]+data[i-2]) # Calculate next term as sum of previous two
+    return data[n-1] # Return the nth term
 
 
 
