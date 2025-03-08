@@ -17,8 +17,13 @@ print(bool_list)  # print a list with boolean values
 
 ##AGREGAR ELEMENTOS##
 items.append('Bin Ladel')
+#El .append()método aumenta la longitud de la lista en uno, por lo que si desea agregar solo un elemento a la lista, puede usar este método.
+
 items.insert(4, 'Socrates')
+# The insert() method inserts an element to the list at the specified index.
+
 items.extend(['Juan', 5])
+# El .extend()método aumenta la longitud de la lista según la cantidad de elementos que se proporcionan al método, por lo que si desea agregar varios elementos a la lista, puede usar este método.
 
 ##ElIMINAR OBJETOS##
 
@@ -49,10 +54,12 @@ element = 'Elon Musk'
 Items.index(element)
 element2 = 'Donal Trump'
 Items.index(element2)
+# The method index() returns the lowest index in the list where the element searched for appears. If any element which is not present is searched, it returns a ValueError.
 
 # COUNT LIST
 Items.count('Elon Musk')
-#Return the number of times the value 9 appears int the list:
+#The count() method returns the number of times the specified element appears in the list.
+
 
 # REVERSE LIST
 print(items[::-1])  # darle reversa a la lista
