@@ -99,3 +99,20 @@ print('BUILT-IN FUNCTIONS')
 
 print(abs(-5.5))  # return teh  absolute value of a number
 print(round(5.49, 5))  # round a number to the nearest integer
+
+
+
+
+
+
+# LAMBDA FUNCTIONS
+lambda num: num * 2
+# also called anonymous functions are tiny functions they have no name and only have one expression as their body
+# it has to return a value
+# can accept more parameters
+
+lambda a, b: a * b
+# I can assign this to the variable called multiply
+multiply = lambda a, b: a * b
+
+print(multiply(2, 4))
