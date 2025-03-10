@@ -15,6 +15,18 @@ for x in mylist:
 
 print(bool_list)  # print a list with boolean values
 
+numbers = [1, 2, 3, 4, 5]
+numbers_pares = [n for n in numbers if n % 2 == 0]
+print(f'list of numbers: {numbers} \n list of pares: {numbers_pares}')
+'''others ways'''
+numbers_power = []
+for n in numbers:
+  numbers_power.append(n**2)
+
+numbers_power_2 = list(map(lambda n: n**2, numbers))
+
+
+
 ##AGREGAR ELEMENTOS##
 items.append('Bin Ladel')
 #El .append()método aumenta la longitud de la lista en uno, por lo que si desea agregar solo un elemento a la lista, puede usar este método.
