@@ -1,18 +1,4 @@
-"""
-INDICACIONES:
-    Escribe un programa en Python que solicite al usuario una lista de números enteros y los almacene en un array. Luego, implementa un algoritmo de ordenamiento manual usando bucles (sin usar sort() ni sorted() u otro método que facilite el ordenamiento ya hecho en python ) para ordenar los números de menor a mayor.
-
-REQUESITOS:
-    1.Usa un bucle anidado para comparar y ordenar los elementos.
-    2.No utilices métodos de ordenamiento como sort() ni sorted() u otro método.
-    3.Muestra el array antes y después de la ordenación.
-Ejemplo:
-Array original: [5, 3, 8, 1, 4]
-Array ordenado: [1, 3, 4, 5, 8]
-"""
-
 import array
-
 # se crea un array vacio y un valor para restringuir la inserción de datos
 arrayTesting = array.array('i')
 value_restringed = 10
@@ -29,28 +15,24 @@ value_restringed = 10
        inicio(en este caso es a) y el array que ha sido ordenado(en este caso es arr)  
     '''
 
-
 def selection_sort(a):
     arr = a[:]
     for i in range(len(arr)):
         min_value = i
-
         for j in range(i + 1, len(arr)):
             if arr[j] < arr[min_value]:
                 min_value = j
-
         arr[i], arr[min_value] = arr[min_value], arr[i]
-
     print(f'Array original: {a.tolist()}')
     print(f'Array ordenado: {arr.tolist()}')
 
 
 print('esto es una prueba de un algoritmo de ordenación, por consiguiente, solamente inserte 10  valores entero')
-
 # Se ejecuta un while, con el objetivo de asegurar la inserción correcta de datos y su respectivo limite.
 while len(arrayTesting) < value_restringed:
-    i = int(input(
-        f'inserte un valor, tiene {value_restringed - len(arrayTesting)} valores restantes a insertar: '))  # Pide un valor al cliente
+    i = int(input(f'inserte un valor, tiene {value_restringed - len(arrayTesting)} valores restantes a insertar: '))  # Pide un valor al cliente
     arrayTesting.append(i)  # Se añade el valor de i en el array
     print(f'El array se mira así: {arrayTesting.tolist()}')  # Se visualiza el array en vivo
 selection_sort(arrayTesting)
+
+

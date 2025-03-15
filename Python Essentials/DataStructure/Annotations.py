@@ -5,7 +5,7 @@ value
 
 
 def incrementn(n: int) -> int:
-  return n + 1
+    return n + 1
 
 
 count: int = 0

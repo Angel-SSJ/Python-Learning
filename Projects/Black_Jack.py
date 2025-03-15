@@ -1,6 +1,8 @@
 import random as rd
 
 
+
+
 class Card:
 
     def __init__(self, suit, rank):

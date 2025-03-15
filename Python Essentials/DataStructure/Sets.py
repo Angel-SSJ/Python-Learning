@@ -1,5 +1,14 @@
-#SETS
-# Sets are used to store multiple items in a single variable.
+"""
+SETS
+Sets are used to store multiple items in a single variable.
+Un conjunto de una colección no ordenada de elementos únicos. No permitir valores duplicados y no mantienen el orden de inserción
+Características
+    No ordenado
+    Sin elementos duplicados
+
+"""
+
+
 set1 = {'Roger', 'Syd'}
 set2 = {'Luna'}
 intersect = set1 | set2
