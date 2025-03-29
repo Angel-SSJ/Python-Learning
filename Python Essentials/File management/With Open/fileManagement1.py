@@ -23,7 +23,7 @@ print(sys.prefix)
 #   archivo.write("TA LOCA LA VAINA\r")
 
 
-with open("..\\Sos un boludo 2.txt", 'r+') as archivo:
+with open("../../Sos un boludo 2.txt", 'r+') as archivo:
     content = archivo.read()
     archivo.seek(2)
     print(content)
@@ -31,16 +31,16 @@ with open("..\\Sos un boludo 2.txt", 'r+') as archivo:
 
 # Error de encoding(codificación del formato a ocupar)
 
-with open("..\\Sos un boludo 2.txt", 'r+', encoding='utf-8') as archivo:
+with open("../../Sos un boludo 2.txt", 'r+', encoding='utf-8') as archivo:
     content = archivo.read()
     print(content)
 
-with open("..\\Sos un boludo 2.txt", 'r+', encoding='utf-8') as archivo:
+with open("../../Sos un boludo 2.txt", 'r+', encoding='utf-8') as archivo:
     content = archivo.read()
     archivo.seek(1)
     print(content[archivo.tell()])
 
-with open("..\\Sos un boludo 2.txt", 'r+', encoding='utf-8') as archivo:
+with open("../../Sos un boludo 2.txt", 'r+', encoding='utf-8') as archivo:
     content = archivo.read()
     archivo.seek(1)
     archivo.write('esto es una prueba pasmado')
