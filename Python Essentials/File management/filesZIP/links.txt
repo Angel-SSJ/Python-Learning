@@ -1,0 +1,5 @@
+https://docs.python.org/3/library/zipfile.html
+https://www.pythoncheatsheet.org/modules/zipfile-module
+https://realpython.com/python-zipfile/
+https://www.datacamp.com/tutorial/zip-file
+https://realpython.com/python-zip-import/

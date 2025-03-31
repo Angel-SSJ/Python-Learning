@@ -1,0 +1,5 @@
+https://www.youtube.com/watch?v=P6HCyxSyFpY
+https://www.datacamp.com/tutorial/python-excel-tutorial
+https://www.python-excel.org/
+https://xlsxwriter.readthedocs.io/
+https://pandas.pydata.org/docs/reference/api/pandas.read_excel.html

@@ -1,0 +1,6 @@
+https://www.geeksforgeeks.org/reading-and-writing-xml-files-in-python/
+https://www.zyte.com/learn/a-practical-guide-to-xml-parsing-with-python/
+https://pandas.pydata.org/docs/reference/api/pandas.read_xml.html
+https://www.datacamp.com/tutorial/python-xml-elementtree
+https://pybit.es/articles/download-xml-file/
+https://scrapingant.com/blog/python-parse-xml

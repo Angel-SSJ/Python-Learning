@@ -1,0 +1,5 @@
+https://www.freecodecamp.org/news/how-to-use-the-json-module-in-python/
+https://docs.python.org/es/3/library/json.html
+https://www.pythoncheatsheet.org/modules/json-module
+https://medium.com/data-science/10-examples-to-learn-the-json-module-of-python-793e62309d64
+https://codeinstitute.net/global/blog/working-with-json-in-python/
