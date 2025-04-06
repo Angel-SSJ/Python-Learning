@@ -23,3 +23,7 @@ Set1 = ["Roger", "Syd", "Roger"]
 set2 = {"Roger"}
 print(list(set1))
 print(set1 - set2)
+
+
+set1.add("Luna")
+print(set1)

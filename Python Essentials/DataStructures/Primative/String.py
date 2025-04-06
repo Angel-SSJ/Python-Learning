@@ -33,3 +33,15 @@ print(name.strip())  # strip() to trim the whitespace from a string
 print(name.join(' is my name'))  # join() to append new letters to a string
 print(name.find('e'))  # find() to find the position of a substring
 print('au' in name)
+
+# Escaping Characters
+name = 'Be\nau'  # put a backslash in front of the character you want to escape
+
+print(name)
+name = 'Be\\au'
+print(name)
+
+# USER INPUT
+print('USER INPUT')
+age = input('What is your age? ')
+print('Your age is ' + age)  # print(f'Your age is {age}')
