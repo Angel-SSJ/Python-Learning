@@ -20,7 +20,7 @@ pattern = 'Hola'
 #3- El texto donde queremos buscar
 text = 'Hola mundo'
 #4- Buscar el patron en el texto con 're'
-result=re.search(pattern,text) # del tipo match
+result = re.search(pattern, text)  # del tipo match
 print(result)
 if result:
     print('Patron encontrado')
@@ -36,42 +36,25 @@ else:
 #.end() devuelve la posicion de fin de la coincidencia
 #print(result.end())
 
-
-#EJERCICIO 01
-#Encuentra la primera ocurrencia de la palabra 'IA' en el siguiente texto e indica en que posicion empieza y temina la coincidencia
-
-text ='Todo el mundo dice que la IA nos va a quitar el trabajo. Pero solo hace falta ver como la pruede cagar con las Regex para ir con cuidado'
-pattern='IA'
-
-found_ia=re.search(pattern,text)
-if found_ia:
-    print(f'He encontrado el patron en el texto, inicia en la coordeanda: {found_ia.start()} y termina en la coordenada: {found_ia.end()}')
-else:
-    print('No he encontrado el patron en el texto CTM')
-
 ### Encontrar todas las coincidencias de un patron
 #.findall() devuelve una lista con todas las coincidencias del patron en el texto
-
-
-'''text='Me gusta Pyhhon. Python es lo maximo. Aunque Python no es tan dificil, ojo con Python'
+text='Me gusta Pyhhon. Python es lo maximo. Aunque Python no es tan dificil, ojo con Python'
 pattern='Py.hon'
 matches=re.findall(pattern, text) # lista de las veces que encuentra el patron
 print(matches)
-'''
 
-text='Me gusta Python. Python es lo maximo. Aunque Python no es tan dificil, ojo con Python'
-pattern='Python'
-matches=re.findall(pattern, text) # lista de las veces que encuentra el patron
+
+
+text = 'Me gusta Python. Python es lo maximo. Aunque Python no es tan dificil, ojo con Python'
+pattern = 'Python'
+matches = re.findall(pattern, text)  # lista de las veces que encuentra el patron
 print(matches)
 print(len(matches))
 #------------------------------
 
 #iter() devuelve un iterador que contiene todos los resultados de la busqueda
-matches=re.finditer(pattern,text)
+matches = re.finditer(pattern, text)
 for match in matches:
-    print(match.group(), match)
-print(matches)
-
-
+    print(match.group(), match.start(), match.end())
 
 
