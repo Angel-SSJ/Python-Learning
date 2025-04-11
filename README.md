@@ -1,4 +1,4 @@
-# 🐍 Conceptos Esenciales de Python:
+# 🐍 Conceptos Esenciales de Python
 
 
 
