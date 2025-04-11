@@ -14,23 +14,26 @@ Debes simular estos enfrentamietnos y devolver le resultado final:
 lista _a = [2, 4, 2]
 lista_b = [3, 3, 4]
 
+resultado = battle(lista_a, lista_b) => '2b'
+
+
 '''
-list_a = [1, 2, 3]
-list_b = [2, 4, 1]
+list_a = [4, 2, 2]
+list_b = [2, 4, 3]
 
 def battle(lista_a, lista_b):
     for i in range(len(lista_a)):
-        b_valor=0
-        a_valor = 0
-
         if lista_a[i]> lista_b[i]:
-            j=i+1
-            lista_a[j] += lista_b[i]
-            print(f'a{list_a[i]}')
+            print(f'{lista_a[i]} y {lista_a[i + 1]} se suman')
+            lista_a[i] = lista_a[i] + lista_a[i+1]
+            print(f'{lista_a[i]} e indice {i+1}')
 
-        elif lista_b[i]> lista_a[i]:
-            lista_b[i] =lista_b[i]
-            print(f'b{list_b[i]}')
+        elif lista_b[i+1]> lista_a[i]:
+            print(f'{lista_b[i]} y {lista_b[i + 1]} se suman')
+            lista_b[i] = lista_b[i] + lista_b[i + 1]
+            print(f'{lista_b[i]} e indice {i + 1}')
+
+
 
         elif lista_a[i] == lista_b[i]:
             lista_a.pop(i)
