@@ -51,11 +51,11 @@ print('\nQUERY:')
 #-----------------------------------------------------------#
 ## Usar la API de GPT-4o de OPENAI
 
-OPENAI_KEY ='sk-xxxxxxxx'
+OPENAI_KEY =''
 
 
 def call_openai_gpt(api_key, prompt):
-    url = 'https://api.openai.com/v1/chat/completions'
+    url = ''
     headers = {
         'Content-Type': 'application/json',
         'Authorization': f'Bearer {api_key}'
@@ -79,11 +79,11 @@ print(json.dumps(api_response, indent=4))
 
 ## Utilizando API de DeepSeek
 
-DEEPSEEK_KEY = 'sk-xxxxxxx'
+DEEPSEEK_KEY = ''
 
 
 def call_deepseek(api_key, prompt):
-    url = 'https://api.deepseek.com/chat/completions'
+    url = ''
     headers = {
         'Content-Type': 'application/json',
         'Authorization': f'Bearer {api_key}'
