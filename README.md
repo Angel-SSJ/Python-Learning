@@ -74,6 +74,14 @@ Ha sido creada para recolectar el proceso de aprendizaje de una persona, y se de
 ---
 
 
-> [!WARNING]
+
+> [!CAUTION]
 > EL REPOS ESTARÁ EN CONSTANTE ACTUALIZACIÓN :D
+> 
+> Partes faltantes de una actualización:
+> 
+> - [ ]  Pilares de OOP
+> - [ ]  Databases y conexiones
+> - [ ]  Ajustat Flow Control
+> - [ ]  Terminar las carpetas de FileManagement
 

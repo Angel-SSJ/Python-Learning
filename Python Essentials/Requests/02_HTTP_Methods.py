@@ -1,8 +1,6 @@
-import urllib.request
 
 import json
-from idlelib.rpc import response_queue
-
+import os
 import requests
 
 # 1. GET
@@ -51,11 +49,12 @@ print('\nQUERY:')
 #-----------------------------------------------------------#
 ## Usar la API de GPT-4o de OPENAI
 
-OPENAI_KEY = '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'
+
+os.getenv('OPENAI_API_KEY')
 
 
 def call_openai_gpt(api_key, prompt):
-    url = 'https://api.openai.com/v1/chat/completions'
+    url = ''
     headers = {
         'Content-Type': 'application/json',
         'Authorization': f'Bearer {api_key}'
@@ -73,17 +72,16 @@ def call_openai_gpt(api_key, prompt):
     print(response.json())
 
 
-api_response =call_openai_gpt(OPENAI_KEY, 'Escribe un breve poema sobre la programacion')
+api_response =call_openai_gpt(os.getenv('OPENAI_API_KEY'), 'Escribe un breve poema sobre la programacion')
 print(json.dumps(api_response, indent=4))
 
 
 ## Utilizando API de DeepSeek
 
-DEEPSEEK_KEY = 'sk-e56b1be9fa1b400591ea3c15e32ad288'
 
 
 def call_deepseek(api_key, prompt):
-    url = 'https://api.deepseek.com/chat/completions'
+    url = ''
     headers = {
         'Content-Type': 'application/json',
         'Authorization': f'Bearer {api_key}'
@@ -101,7 +99,7 @@ def call_deepseek(api_key, prompt):
     print(response.json())
 
 
-api_response =call_deepseek(DEEPSEEK_KEY, 'Escribe un breve poema sobre la programacion')
+api_response =call_deepseek(os.getenv('OPENAI_API_KEY'), 'Escribe un breve poema sobre la programacion')
 print(json.dumps(api_response, indent=4))
 
 #https://platform.deepseek.com/api_keys
