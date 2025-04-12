@@ -51,15 +51,14 @@ print('\nQUERY:')
 #-----------------------------------------------------------#
 ## Usar la API de GPT-4o de OPENAI
 
-cambie_nombre =''
 
 
 
-def call_openai_gpt(api_key, prompt):
+def call_openai_gpt( prompt):
     url = ''
     headers = {
         'Content-Type': 'application/json',
-        'Authorization': f'Bearer {api_key}'
+        'Authorization': f'Bearer '
     }
     data = {
         "model": "gpt-4o-mini",
@@ -74,20 +73,19 @@ def call_openai_gpt(api_key, prompt):
     print(response.json())
 
 
-api_response =call_openai_gpt(cambie_nombre, 'Escribe un breve poema sobre la programacion')
+api_response =call_openai_gpt( 'Escribe un breve poema sobre la programacion')
 print(json.dumps(api_response, indent=4))
 
 
 ## Utilizando API de DeepSeek
 
-cambie_nombre = ''
 
 
-def call_deepseek(api_key, prompt):
+def call_deepseek(prompt):
     url = ''
     headers = {
         'Content-Type': 'application/json',
-        'Authorization': f'Bearer {api_key}'
+        'Authorization': f'Bearer '
     }
     data = {
         "model": "deepseek-chat",
@@ -102,7 +100,7 @@ def call_deepseek(api_key, prompt):
     print(response.json())
 
 
-api_response =call_deepseek(cambie_nombre, 'Escribe un breve poema sobre la programacion')
+api_response =call_deepseek( 'Escribe un breve poema sobre la programacion')
 print(json.dumps(api_response, indent=4))
 
 #https://platform.deepseek.com/api_keys
