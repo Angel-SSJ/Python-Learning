@@ -51,7 +51,7 @@ print('\nQUERY:')
 #-----------------------------------------------------------#
 ## Usar la API de GPT-4o de OPENAI
 
-OPENAI_KEY =''
+KEY =''
 
 
 def call_openai_gpt(api_key, prompt):
@@ -73,13 +73,13 @@ def call_openai_gpt(api_key, prompt):
     print(response.json())
 
 
-api_response =call_openai_gpt(OPENAI_KEY, 'Escribe un breve poema sobre la programacion')
+api_response =call_openai_gpt(KEY, 'Escribe un breve poema sobre la programacion')
 print(json.dumps(api_response, indent=4))
 
 
 ## Utilizando API de DeepSeek
 
-DEEPSEEK_KEY = ''
+KEY = ''
 
 
 def call_deepseek(api_key, prompt):
@@ -101,7 +101,7 @@ def call_deepseek(api_key, prompt):
     print(response.json())
 
 
-api_response =call_deepseek(DEEPSEEK_KEY, 'Escribe un breve poema sobre la programacion')
+api_response =call_deepseek(KEY, 'Escribe un breve poema sobre la programacion')
 print(json.dumps(api_response, indent=4))
 
 #https://platform.deepseek.com/api_keys
