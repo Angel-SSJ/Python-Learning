@@ -51,7 +51,7 @@ print('\nQUERY:')
 #-----------------------------------------------------------#
 ## Usar la API de GPT-4o de OPENAI
 
-'''OPENAI_KEY ='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'
+OPENAI_KEY ='sk-xxxxxxxx'
 
 
 def call_openai_gpt(api_key, prompt):
@@ -79,7 +79,7 @@ print(json.dumps(api_response, indent=4))
 
 ## Utilizando API de DeepSeek
 
-DEEPSEEK_KEY = 'sk-e56b1be9fa1b400591ea3c15e32ad288'
+DEEPSEEK_KEY = 'sk-xxxxxxx'
 
 
 def call_deepseek(api_key, prompt):
@@ -103,6 +103,6 @@ def call_deepseek(api_key, prompt):
 
 api_response =call_deepseek(DEEPSEEK_KEY, 'Escribe un breve poema sobre la programacion')
 print(json.dumps(api_response, indent=4))
-'''
+
 #https://platform.deepseek.com/api_keys
 #https://platform.openai.com/docs/overview
