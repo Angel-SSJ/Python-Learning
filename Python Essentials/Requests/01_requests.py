@@ -17,28 +17,3 @@ except urllib.error.URLError as e:
     print(f'Error en la solicitud: {e.reason}')
 
 #CON DEPENDENCIAS (requests)
-import requests
-
-print('\nGET:')
-response = requests.get(API_posts)
-print(response.json())
-json= response.json()
-print(json[0])
-
-
-# METODO HTTP PULL
-
-# 3. Un post
-print('\nPOST')
-try:
-    input={'userId':'2', "title":"esto es una request", "body":" estoy probando esta vaina"}
-    response= requests.post(API_posts, json=input)
-    print(response.json())
-    print(response.status_code)
-except requests.exceptions.RequestException as e:
-    print(f'Error en la solicitud: {e}')
-
-# METODO HTTP POST
-
-
-
