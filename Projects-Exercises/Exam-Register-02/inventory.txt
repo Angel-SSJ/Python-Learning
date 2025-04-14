@@ -1,0 +1,3 @@
+2132802717840,Noches Blancas,Dostoievsky Fiodor,1848,Ficcion,Nordica Libros,18.0,3
+2132802717840,El Jugador,Dostoievsky Fiodor,1866,Ficcion,Novona Editorial,29.0,1
+2223590147616,Hábitos Atómicos,James Clear,2018,Libro De Autoayuda,Diana Editorial,30.95,5
