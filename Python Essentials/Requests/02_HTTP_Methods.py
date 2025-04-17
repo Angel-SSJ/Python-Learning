@@ -54,7 +54,7 @@ os.getenv('OPENAI_API_KEY')
 
 
 def call_openai_gpt(api_key, prompt):
-    url = ''
+    url = 'https://api.deepseek.com/v1/chat/completions'
     headers = {
         'Content-Type': 'application/json',
         'Authorization': f'Bearer {api_key}'
@@ -81,7 +81,7 @@ print(json.dumps(api_response, indent=4))
 
 
 def call_deepseek(api_key, prompt):
-    url = ''
+    url = 'https://api.deepseek.com/v1/chat/completions'
     headers = {
         'Content-Type': 'application/json',
         'Authorization': f'Bearer {api_key}'
