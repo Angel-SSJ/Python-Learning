@@ -1,0 +1,39 @@
+REQUESTS
+    foto estatica
+    BAD BOYS
+        No puede saltarse los paywall ni los captchas
+        No puedes navegar
+        muy manual apra encontrar lo que te interesa
+
+    GOOD BOYS
+        Muy rapido
+        Muy sencillo de implementar
+
+
+BEAUTIFUL SOAP
+    foto estatica
+    BAD BOYS
+        No puede saltarse los paywall ni los captchas
+        Tampoco puede navegar
+
+    GOOD BOYS
+        +Rapido
+        Extremadamente sencillo de implementar
+        Facil encontrar elementos, atributos y filtrar
+
+PLAYWRIGHT
+    BAD BOYS
+        Es mas lento y costoso
+    GOOD BOYS
+        Simular un usuario y navegar por la pagina
+        Capturas de pantalla
+        Cargar el JS de la pagina
+        Funciona con SPAs
+        mas Facil saltarse los paywalls o las modales o cualquier vaina
+        Sirve para extraccion de datos(revisar* si la pagina funciona)
+        Sirve para extraer datos y ejecutarlo como si fuera un comando
+
+
+SPAs => Single Page Applications
+    Son Client Sites, solo se ejecutan en el cliente y no hay HTML
+UTILIZAR VPN cuando se hace scrapping
