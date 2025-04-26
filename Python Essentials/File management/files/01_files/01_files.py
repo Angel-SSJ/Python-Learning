@@ -6,7 +6,7 @@ import os
 
 # Read - error if it doesnt exist
 
-f = open('names.txt','r')
+f = open('names.txt', 'r')
 # print(f.read())
 # print(f.read(4)) # index 4 = line 4
 
@@ -30,7 +30,7 @@ finally:
 
 # Append - create the file if it doesnt exist
 
-f = open('names.txt','a')
+f = open('names.txt', 'a')
 f.write('\n')
 f.write('Hello World\n')
 f.close()
@@ -68,7 +68,7 @@ print('-------------------------------------------------------------------------
 
 
 if not os.path.exists('angel.txt'):
-    with open('angel.txt','+x') as file:
+    with open('angel.txt', '+x') as file:
         file.write("Angel's File \n ")
         print(file.read())
 
@@ -92,5 +92,5 @@ with open('more_names.txt', 'r') as file:
     content = file.read()
     print(content)
 
-with open('names.txt', 'w' ) as file:
+with open('names.txt', 'w') as file:
     file.write(content)
