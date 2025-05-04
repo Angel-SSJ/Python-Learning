@@ -1,4 +1,0 @@
-https://www.digitalocean.com/community/tutorials/python-os-module
-https://python101.pythonlibrary.org/chapter16_os.html
-https://alibaba-cloud.medium.com/the-difference-between-os-and-sys-two-modules-in-python-87664c2e9021
-https://medium.com/@imshivam077/os-module-in-python-761db642c871

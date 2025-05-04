@@ -1,6 +1,0 @@
-https://pypdf2.readthedocs.io/en/3.x/
-https://encord.com/blog/pdf-processing-in-python/
-https://carolinamendozab.medium.com/nice-and-easy-way-to-extract-data-from-pdf-files-with-python-d71b58f43d04
-https://pypdf.readthedocs.io/en/stable/
-https://realpython.com/pdf-python/
-https://dev.to/mhamzap10/how-to-create-a-pdf-file-in-python-3182
