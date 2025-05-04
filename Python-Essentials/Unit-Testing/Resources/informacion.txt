@@ -1,0 +1,23 @@
+Puntos Claves
+- Las pruebas unitarias son un método de prueba de software mediante el cual se someten unidades individuales de código
+  fuente a diversas pruebas para determinar si son aptas para su uso
+- Las pruebas unitarias hacen que tu código esté preparado para el futuro, ya que anticipas los casos en los que tu
+  código podría fallar o producir un error
+- Una unidad puede dividirse en varias categorías:
+    Un módulo entero
+    Una función individual
+    Una interfaz completa como una clase o un método.
+- El marco de pruebas unitarias de Python se inspiró en JUnit de Java y tiene características similares a los principales
+  marcos de pruebas unitarias de otros lenguajes.
+
+
+
+De los resultados anteriores pueden extraerse las siguientes conclusiones:
+-  El nivel de verbosidad 0 sólo muestra cuántas pruebas se ejecutaron, es decir, 2 pruebas junto con el tiempo que se tardó en ejecutarlas
+-  Verbosidad nivel 1 añade dos puntos .. que significa que se han ejecutado dos pruebas
+-  El nivel de verbosidad 2 muestra los nombres detallados de los métodos que se ejecutaron junto con su estado OK o FAIL
+
+
+
+
+https://www.datacamp.com/es/tutorial/unit-testing-python
