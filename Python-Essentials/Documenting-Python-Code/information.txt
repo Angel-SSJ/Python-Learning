@@ -1,0 +1,32 @@
+Important Points
+    python docstrings are the string literals that appear right after the definition of a function, method, class, or module.
+    Python commments vs Docstring
+        Comments are description that help programmers better understand the intent and funcionality of the program
+        we use # to write a single-line comment.
+        The comments are ignored by the Python interpreter
+
+        Python docstrings are string used right after the definition of a function, method, class, or module.
+        We can access these docstring using __doc__ attribute.
+
+    Single-line docstring in Python
+        Conventions
+            Even though they are single-lined, we still use the triple quotes around these docstrings as they can be expanded easily later.
+            The closing quotes are on the same line as the opening quotes.
+            There's no blank line either before or after the docstring.
+            They should not be descriptive, rather they must follow "Do this, return that" structure ending with a period.
+
+    Multi-line Docstrings in Python
+        Python modules
+            The docstrings for Python Modules should list all the available classes, functions, objects and exceptions that are imported when the module is imported.
+            They should also have a one-line summary for each item.
+        Python Functions
+            The docstring for a function or method should summarize its behavior and document its arguments and return values.
+            It should also list all the exceptions that can be raised and other optional arguments.
+        Python Classes
+            The docstring for a class should summarize its behavior and document its attributes and methods.
+            It should also list all the exceptions that can be raised and other optional arguments.
+
+
+
+
+ https://www.programiz.com/python-programming/docstrings
