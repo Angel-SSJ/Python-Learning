@@ -27,6 +27,15 @@ Important Points
             It should also list all the exceptions that can be raised and other optional arguments.
 
 
+    Styles Docstring
+        Sphinx Style: Often used in large projects where comprehensive documentation is required. It integrates well with Sphinx's documentation generator.
+        Google Style: Ideal for projects where simplicity and readability are prioritized, especially within organizations using Google's style guides.
+        NumPy Style: Best suited for projects requiring detailed and extensive documentation, common in data science and scientific computing.
+        PyDoc: Useful for generating text and HTML documentation, but lacks the structured format of others.
+
+
+    As you learned that docstrings are accessible through the built-in Python __doc__ attribute and the help() function.
 
 
  https://www.programiz.com/python-programming/docstrings
+https://www.datacamp.com/tutorial/docstrings-python
