@@ -1,0 +1,24 @@
+https://www.datacamp.com/tutorial/pandas
+https://www.programiz.com/python-programming/pandas/data-cleaning
+https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.to_excel.html
+
+https://github.com/stefmolin/pandas-workshop/tree/main
+https://github.com/dgerlanc/programming-with-data
+https://mlcourse.ai/book/topic01/assignment01_pandas_uci_adult.html?source=post_page-----2431afe0956b---------------------------------------
+
+PANDAS XML
+    https://learn.integray.app/examplelibrary/Python/7/
+    https://stackabuse.com/reading-and-writing-xml-files-in-python-with-pandas/
+
+PANDAS YAML
+    https://learn.integray.app/examplelibrary/Python/8/
+    https://medium.com/@heyamit10/understanding-yaml-and-its-usage-with-pandas-074ae626a2de
+
+
+PANDAS JSON
+    https://learn.integray.app/examplelibrary/Python/6/
+    https://www.programiz.com/python-programming/pandas/json
+
+PANDAS CVS
+    https://learn.integray.app/examplelibrary/Python/5/
+    https://www.programiz.com/python-programming/pandas/csv
