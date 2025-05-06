@@ -23,6 +23,7 @@ print(name.isalpha())  # isalpha() to check if a string contains only characters
 print(name.isalnum())  # isalnum() to check if a string contains characters or digits and is not empty-
 print(name.islower())  # islower() to check if a string is lowercase
 print(name.isupper())  # isupper() to check if a string is uppercase
+print(name.isdigit()) # isdigit() to check if a string is a digit
 print(name.upper())  # upper() to get an uppercase version of a string
 print(name.title())  # title() to get a capitalized version of a string
 print(name.startswith('B'))  # startswith() to check if the string starts with a specific substring
@@ -45,3 +46,4 @@ print(name)
 print('USER INPUT')
 age = input('What is your age? ')
 print('Your age is ' + age)  # print(f'Your age is {age}')
+name.isdigit()
